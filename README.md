@@ -1,27 +1,63 @@
-# AngularTestingWorkshop
+# Angular Testing Workshop
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.12.
+This project is a **comprehensive Angular testing workshop** that covers various testing scenarios, including:
 
-## Development server
+- **Components** (Input, Output, Templates, Lifecycle Hooks)
+- **Services** (Observables, HTTP Requests, Mocking)
+- **Pipes** (Custom Pipes)
+- **Directives** (Custom Directives)
+- **Forms** (Reactive Forms, Validation)
+- **Advanced Mocking** (Dependencies, HTTP Requests)
+- **Integration Testing** (Component Interaction)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This project is designed to help developers understand and practice Angular testing in a real-world context.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Features
 
-## Build
+This project demonstrates the following testing features:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+#### **Components**
+- **Input and Output**: Testing component inputs and outputs.
+- **Template Rendering**: Verifying that templates render correctly.
+- **Interaction with Child Components**: Testing parent-child component interactions.
 
-## Running unit tests
+#### **Services**
+- **Observables**: Testing services that return observables.
+- **HTTP Requests**: Mocking HTTP requests using `HttpClientTestingModule`.
+- **Mocking Dependencies**: Using Jasmine spies to mock service dependencies.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### **Pipes**
+- **Custom Pipes**: Testing custom pipes (e.g., `CapitalizePipe`).
 
-## Running end-to-end tests
+#### **Directives**
+- **Custom Directives**: Testing custom directives (e.g., `HighlightDirective`).
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+#### **Forms**
+- **Reactive Forms**: Testing form validation and submission.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Prerequisites
+
+#### Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Shaban-Eissa/Angular-Testing-Workshop.git
+   cd Angular-Testing-Workshop
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run unit tests using the Angular CLI:
+   ```bash
+   ng test
+   ```
+   
+This will open the Karma test runner in your browser, where you can see the results of the unit tests.
+
+## Contributing
+Contributions are welcome! 😊
